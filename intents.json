@@ -1,0 +1,70 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+    "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+    "context_set": ""
+  },
+  {"tag": "add_todo",
+    "patterns": ["add to do","i want to add to do list","add a to do to my list","new work for my to do list","to do"],
+    "responses": [""],
+    "context_set": ""
+  },
+
+  {"tag": "add_note",
+    "patterns" : ["new note","add note"," take a note"," create a note","note","take note"],
+    "responses" : [""],
+    "context_set": ""
+  },
+  {"tag": "exit",
+    "patterns": ["bye","go to sleep","sleep","u can go to sleep","thanks","thank you"],
+    "responses": [""],
+    "context_set": ""
+  },
+  {"tag": "show_todo",
+    "patterns" : ["show my to do list","show  my to do list"," show to do list","tell me the todo list","show me the todo list","show my todo list","todo list",",to do"],
+    "responses" : [""],
+    "context_set": ""
+  },
+  {"tag": "time_teller",
+    "patterns" : ["tell me the time","show time","time","what is the time","tell time"],
+    "responses" : [""],
+    "context_set": ""
+  },
+
+  {"tag": "wikipedia",
+    "patterns": ["what is ","who is ","what","who","what is called","who is called","tell me about","tell something about","tell ho is"],
+    "responses": [""],
+    "context_set": ""
+  },
+  {"tag": "chromesearch",
+    "patterns": ["google","chrome","search in chrome","google what is ","chrome what is","search in google"],
+    "responses": [""],
+    "context_set": ""
+  },
+  {"tag": "openapp",
+    "patterns": ["open app","open application","run application","run app","run","open","application","app","pycharm","pythoneditor","telegram","files","discord"],
+    "responses": [""],
+    "context_set": ""
+  },
+  {"tag": "date",
+    "patterns": ["what day it is","todays date","tell me today's date","date","day","date","tell me the date","what date is it"],
+    "responses": [""],
+    "context_set": ""
+  },
+  {"tag": "playonyt",
+    "patterns": ["play","play video","youtube","song","music","yt","play songs"],
+    "responses": [""],
+    "context_set": ""
+  }
+]
+}
